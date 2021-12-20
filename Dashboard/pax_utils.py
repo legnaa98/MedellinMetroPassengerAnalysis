@@ -87,7 +87,7 @@ class EDA:
             # fill up the empty dataframe
             df_transformed = pd.concat([df_transformed, df_tmp])
 
-        return df_transformed
+        return df_transformed[["YearMonth", "Passengers", "Line"]]
 
     def transform_df_sem(
         self, df_pass: pd.core.frame.DataFrame, lines: np.ndarray
