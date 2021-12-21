@@ -138,6 +138,7 @@ class ForecastModel:
         # fit linear model
         lr_model = self.fit_linear_model(X, y)
         # predict ticket prices with the linear model
+        self.df_pred = self.linear_model_predict(lr_model)
 
     def fit_linear_model(self, X, y):
         model = LinearRegression()
