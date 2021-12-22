@@ -1,4 +1,3 @@
-import seaborn as sns
 import plotly.graph_objects as go
 import plotly.express as px
 from pax_utils import *
