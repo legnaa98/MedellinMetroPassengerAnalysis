@@ -3,4 +3,4 @@ numpy
 plotly
 scikit-learn
 streamlit
-gunicorn=19.9.0
+gunicorn==19.9.0
